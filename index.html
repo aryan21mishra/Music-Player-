@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+          <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+          <div class="main">
+                    <div class="music-player">
+
+                              <div class="disk"></div>
+                              <div class="name-sa">
+                                        <p class="music-name">Jai Hanumant</p>
+                                        <div class="artist-name">
+                                                  <p>Artist:</p>
+                                                  <p>Narci</p>
+                                        </div>
+                              </div>
+
+                              <div class="cdr">
+                                        <div class="cd">
+                                                  <span class="currentTime">00:00</span>
+                                                  <span class="durationTime">00:00</span>
+                                        </div>
+                                        <input type="range" name="" id="range" value="0">
+                              </div>
+                              <div class="icon">
+                                        <i class="ri-skip-left-fill" id="backward-btn"></i>
+                                        <i class="ri-play-fill" id="play-btn"></i>
+                                        <i class="ri-skip-right-fill" id="forward-btn"></i>
+
+                              </div>
+                              <div class="volm">
+                                        <i class="ri-shuffle-line" id="shuffle"></i>
+                                        <i class="ri-replay-10-line" id="bskip"></i>
+                                        <i class="ri-forward-10-fill" id="fskip"></i>
+                                        <i class="ri-repeat-one-line" id="repeat"></i>
+                              </div>
+                              <div class="div">
+                                        <i class="ri-volume-down-line" id="volume-icon"></i>
+                                        <input type="range" name="" id="volume" max="100" min="0" value="100">
+                                        <i class="ri-volume-up-line" id="volume-icon"></i>
+                              </div>
+
+                    </div>
+          </div>
+          <script src="script.js"></script>
+</body>
+
+</html>
